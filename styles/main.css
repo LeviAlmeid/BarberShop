@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1592647420148-bfcc177e2117?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyYmVhcmlhfGVufDB8fDB8fHww') center/cover fixed no-repeat;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Overlay escuro */
+}
+
+header {
+    background-color: #222;
+    /* Ajuste opcional para o cabeçalho */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: rgb(78, 77, 77);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(253, 234, 234);
+}
+#Jobs h2{
+    color: #333;
+}
+section p {
+    font-size: 24px;
+    line-height: 1.9;
+    color: rgb(253, 243, 243);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.barber-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 30rem;
+    object-fit: cover;
+    /* Manter proporção da imagem e preencher completamente o espaço */
+}
+#map {
+width: 100%;
+height: 300px; /* Ajuste conforme necessário */
+}
